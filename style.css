@@ -1,0 +1,62 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: rgb(138, 186, 138);
+    }
+   
+th, td {
+  border:1px solid rgb(18, 10, 10);
+}
+
+
+    header {
+      background-color: #f2f2f2;
+      padding: 20px;
+      text-align: center;
+    }
+ 
+    h1 {
+      color: #333;
+      text-align: center;
+    }
+
+    main {
+      padding: 20px;
+    }
+    .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+    .a1 {
+        text-align: left;
+        color: rgb(1, 1, 1);
+      }
+      /* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(35, 17, 169);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
